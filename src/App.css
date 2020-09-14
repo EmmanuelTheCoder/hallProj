@@ -1,0 +1,36 @@
+
+
+.container{
+  background: #404246;
+  color: white;
+ 
+}
+
+.gp {
+  color: #0cc;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: -5px;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(156, 154, 154);
+  animation: move 10s  reverse infinite;
+}
+
+@keyframes move{
+  0%{
+    color: yellowgreen;
+  }
+  40%{
+    color: rgb(93, 214, 93);
+
+  }
+  100%{
+    color: yellow;
+  }
+}
+
+
