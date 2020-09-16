@@ -127,6 +127,7 @@ td:last-child{
   margin-bottom: 4rem;
   animation: pastor 5s alternate infinite;
   transition: 12s ease;
+
 }
 .excos .president-info > p{
   display: flex;
@@ -139,10 +140,10 @@ td:last-child{
 }
 
 .excos .president-info > img{
-  width: 12rem;
-  
+  width: 9rem;
+ ;
 }
 .excos .iyanu{
-  height: 17rem;
-  padding-top: 1rem;
+  height: 12rem;
+  padding-top: 1.9rem;
 }
