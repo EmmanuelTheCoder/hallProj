@@ -36,14 +36,14 @@ body{
   width: 40%;
 }
 .header h2{
-  font-size: 1.9em;
+  font-size: 1.2em;
   color: blue;
   font-family: 'Courier New';
-  margin-top: -2.6rem;
+  margin-top: -1.8rem;
   margin-bottom: 1rem;
 }
 .header h2::first-letter, .header .c{
-  font-size: 5rem;
+  font-size: 3rem;
  
 }
 .about{
