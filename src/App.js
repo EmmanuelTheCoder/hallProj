@@ -18,25 +18,27 @@ import tope from './pictures/tope.jpg'
 const App = () =>{
     return(
         <div className="app">
-              <div className="header">
-                  <div className="popup">
-                      
-                  </div>
-                <img src={cac} alt="cac logo" className="logo" />
+            <div className="logo-background">
+               <div className="header">
+                     <div className="popup">
+                        
+                     </div>
+                  <img src={cac} alt="cac logo" className="logo" />
 
-                <h2>Halleluyah <span className="c">c</span>hapel</h2>
-            </div>
-            <div className="about">
-                {/* <h2>About Church</h2> */}
-                <p className="church-info"><span className="halleluyah">Christ Apostolic Church (CAC) Halleluyah chapel</span>
-                    is a church located at Beatrice Anike street, Tanke-Okeodo, Ilorin, Nigeria. It was established in the
-                    year 2003 by the Lord's decree to Pastor M.B Ajiroba who is the Minister-in-charge. The church has been
-                    a life-changing arena, helping youths and interested adults to model their part
-                </p>
-                <img src={halleluyah} alt="halleluyah" className="halleluyah-pix"/>
-                <p>
+                  <h2>Halleluyah <span className="c">c</span>hapel</h2>
+               </div>
+               <div className="about">
+                  {/* <h2>About Church</h2> */}
+                  <p className="church-info"><span className="halleluyah">Christ Apostolic Church (CAC) Halleluyah chapel</span>
+                     is a church located at Beatrice Anike street, Tanke-Okeodo, Ilorin, Nigeria. It was established in the
+                     year 2003 by the Lord's decree to Pastor M.B Ajiroba who is the Minister-in-charge. The church has been
+                     a life-changing arena, helping youths and interested adults to model their part
+                  </p>
+                  <img src={halleluyah} alt="halleluyah" className="halleluyah-pix"/>
+                  <p>
 
-                </p>
+                  </p>
+               </div>
             </div>
             <div className="service">
                <h2>Service schedule</h2>

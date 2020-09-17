@@ -13,11 +13,11 @@ body{
   text-align: center;
 }
 .logo{
-  width: 30%;
-
+  width: 10rem;
+  
 }
 .halleluyah-pix{
-  width: 60%;
+  width: 15rem;
   
 }
 .pastor{
@@ -167,7 +167,10 @@ td:last-child{
   display: flex;
   justify-content: space-around;
 } */
-
+.logo-background{
+  background: linear-gradient(to left, rgba(204, 206, 207, 0.3), rgba(181, 204, 186, 0.1));
+  border-radius: 40px 30px 20px 100px;
+}
  .excos{
   text-align: center;
 }
@@ -197,6 +200,7 @@ td:last-child{
 }
 .excos img, .hod img{
   width: 15rem;
+  animation: pastor 2s alternate infinite;
 }
 .hod{
   text-align: center;
