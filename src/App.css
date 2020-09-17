@@ -106,7 +106,7 @@ td:last-child{
   align-self: center;
   width: 12rem;
 } */
-.excos{
+/* .excos{
   text-align: center;
 }
 .excos h2{
@@ -120,7 +120,7 @@ td:last-child{
   font-size: 1.1rem;
   color: rgb(241, 103, 11);
 }
-.excos .president{
+.excos .president, .excos .group2{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -129,7 +129,7 @@ td:last-child{
   transition: 12s ease;
 
 }
-.excos .president-info > p{
+.excos .president-info > p, .excos .academic-cord > p{
   display: flex;
   justify-content: center;
   font-size: 1.2rem;
@@ -139,11 +139,39 @@ td:last-child{
   
 }
 
-.excos .president-info > img{
+.excos .president-info > img, .excos .academic-cord > img{
   width: 9rem;
- ;
+ 
 }
 .excos .iyanu{
   height: 12rem;
   padding-top: 1.9rem;
+} */
+
+.academic-cord{
+  display: flex;
+  justify-content: space-around;
+}
+.academic-cord img{
+  width: 10rem;
+  height: 15rem;
+}
+.group3{
+  display: flex;
+}
+.president{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.president img, .group1 img{
+  width: 10rem;
+  margin-left: 20px;
+}
+.president p, .group1 p{
+  margin-left: 10px;
+}
+.group1{
+  display: flex;
+  justify-content: space-around;
 }

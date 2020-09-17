@@ -74,77 +74,94 @@ const App = () =>{
                   youths hence the need to have the Youth Executives body. These are the current excos
                   for the 2019/2020 tenure; 
                </p>
-               <div className="president">
-                  <div className="president-info">
-                     <img src={paul} alt="Paul Oyinloye" className="paul general"/>
-                        <p>Name: Paul Oyinloye</p>
-                        <p>Department: Linguistics and Nigerian Languages</p>
-                        <p>Phone:</p>
-                        <p>Office: Youth President</p>
-                  </div>
+                  {/* start display grid */}
+                  <div className="grid">
+                     <div className="president">
+                     <div className="president-info">
+                        <img src={paul} alt="Paul Oyinloye" className="paul general"/>
+                           <p>Name: Paul Oyinloye</p>
+                           <p>Department: Linguistics and Nigerian Languages</p>
+                           <p>Phone:</p>
+                           <p>Office: Youth President</p>
+                     </div>
 
-                  <div className="president-info">
-                  <img src={iyanu} alt="Iyanuoluwa Owoyemi" className="iyanu general"/>
-                     <p>Name: Owoyemi, Iyanuoluwa Oluwaseun</p>
-                     <p>Department: Agricultural and Biosystems Engineering</p>
-                     <p>Phone: 08109685985</p>
-                     <p>Office: Vice President</p>
-                  </div>
+                     <div className="president-info">
+                     <img src={iyanu} alt="Iyanuoluwa Owoyemi" className="iyanu general"/>
+                        <p>Name: Owoyemi, Iyanuoluwa Oluwaseun</p>
+                        <p>Department: Agricultural and Biosystems Engineering</p>
+                        <p>Phone: 08109685985</p>
+                        <p>Office: Vice President</p>
+                     </div>
 
-               </div>
-               <div className="group1">
-                  <div className="gensec">
-                     <img src={tope} alt="Tope Akinyele" className="tope general"/>
-                     <p>Name: Akinyele, Temitope Esther</p>
-                     <p>Department: Art Education</p>
-                     <p>Phone: 08109685985</p>
-                     <p>Office: General Secretary</p>
-                     <img src="" alt="" className="samuel general"/>
                   </div>
-               </div>
-               <div className="group2">
-                  <div className="academic-cord">
-                     <img src={adeola} alt="Adeola Adekeye" className="tope general"/>
-                     <p>Name: Adekeye, Adeola Oluwatomi</p>
-                     <p>Department: Agricultural Economic and Farm Management Practice</p>
-                     <p>Phone: 08109685985</p>
-                     <p>Office: Academic Coordinator 1</p>
+                  <div className="group1">
+                     <div className="gensec">
+                        <img src={tope} alt="Tope Akinyele" className="tope general"/>
+                        <p>Name: Akinyele, Temitope Esther</p>
+                        <p>Department: Art Education</p>
+                        <p>Phone: 08109685985</p>
+                        <p>Office: General Secretary</p>
 
-                     <img src={timothy} alt="Timothy Solarin" className="samuel general"/>
-                     <p>Name: Solarin, O. Timothy</p>
-                     <p>Department: Finance</p>
-                     <p>Phone: 08109685985</p>
-                     <p>Office: Academic Coordinator 2</p>
+                           
+                     </div>
+                     
+                     <div className="gensec">
+                           <img src={emmanuel} alt="" className="samuel general"/>
+                           <p>Name: Akinyele, Temitope Esther</p>
+                           <p>Department: Art Education</p>
+                           <p>Phone: 08109685985</p>
+                           <p>Office: General Secretary</p>
+                        </div>
                   </div>
-               </div>
-               <div className="group3">
-                  <div className="prayer-cord">
-                     <img src={emmanuel} alt="Emmanuel Aiyenigba" className="emmanuel general" />
-                     <p>Name: Emmanuel Juwon Aiyenigba</p>
-                     <p>Department: Zoology</p>
-                     <p>Phone: 08147367859</p>
-                     <p>Office: Prayer Secretary 1</p>
+                  <div className="group2">
+                     <div className="academic-cord">
+                        <img src={adeola} alt="Adeola Adekeye" className="tope"/>
+                        <img src={timothy} alt="Timothy Solarin" className="samuel"/>
+                    
+                     </div>
+                     <div className="academic">
+                           <p>Name: Adekeye, Adeola Oluwatomi</p>
+                           <p>Department: Agricultural Economic and Farm Management Practice</p>
+                           <p>Phone: 08109685985</p>
+                           <p>Office: Academic Coordinator 1</p>
+                       
+                           <p>Name: Solarin, O. Timothy</p>
+                           <p>Department: Finance</p>
+                           <p>Phone: 08109685985</p>
+                           <p>Office: Academic Coordinator 2</p>
+                     </div>
+                  </div>
+                  <div className="group3">
+                     <div className="prayer-cord">
+                        <img src={emmanuel} alt="Emmanuel Aiyenigba" className="emmanuel general" />
+                        <p>Name: Emmanuel Juwon Aiyenigba</p>
+                        <p>Department: Zoology</p>
+                        <p>Phone: 08147367859</p>
+                        <p>Office: Prayer Secretary 1</p>
 
-                     <img src={elijah} alt="Elijah Otunla" className="elijah general"/>
-                        <p>Name: Otunla, Elijah Oluwafemi</p>
-                        <p>Department: Telecommunication Science</p>
-                        <p>Phone: 09074916632</p>
-                        <p>Office: Prayer Secretary 2</p>
-                  </div>
-                  <div className="group4">
-                     <img src={darasimi} alt="Darasimi Onigbinde" className="darasimi general"/>
-                        <p>Name: Onigbinde, Oluwadarasimi</p>
-                        <p>Department: Marketing</p>
-                        <p>Phone: 09066724369</p>
-                        <p>Office: Public Relation Officer</p>
+                        <img src={elijah} alt="Elijah Otunla" className="elijah general"/>
+                           <p>Name: Otunla, Elijah Oluwafemi</p>
+                           <p>Department: Telecommunication Science</p>
+                           <p>Phone: 09074916632</p>
+                           <p>Office: Prayer Secretary 2</p>
+                     </div>
+                     <div className="group4">
+                        <img src={darasimi} alt="Darasimi Onigbinde" className="darasimi general"/>
+                           <p>Name: Onigbinde, Oluwadarasimi</p>
+                           <p>Department: Marketing</p>
+                           <p>Phone: 09066724369</p>
+                           <p>Office: Public Relation Officer</p>
 
-                        <img src={lydia} alt="lydia Solarin" className="lydia general"/>
-                           <p>Name: Solarin, Lydia Adeola</p>
-                           <p>Department: Educational Management</p>
-                           <p>Phone: 08186786401</p>
-                           <p>Office: Financial Secretary</p>
+                           <img src={lydia} alt="lydia Solarin" className="lydia general"/>
+                              <p>Name: Solarin, Lydia Adeola</p>
+                              <p>Department: Educational Management</p>
+                              <p>Phone: 08186786401</p>
+                              <p>Office: Financial Secretary</p>
+                     </div>
                   </div>
-               </div>
+                  </div>
+                  {/* end display grid */}
+            
             </div>
             <div className="hod">
                <h2>Meet the HODs</h2>
