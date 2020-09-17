@@ -79,84 +79,83 @@ const App = () =>{
                      <div className="president">
                      <div className="president-info">
                         <img src={paul} alt="Paul Oyinloye" className="paul general"/>
-                           <p>Name: Paul Oyinloye</p>
-                           <p>Department: Linguistics and Nigerian Languages</p>
-                           <p>Phone:</p>
-                           <p>Office: Youth President</p>
+                           <p> <label>Name:</label> Paul Oyinloye</p>
+                           <p> <label>Department: </label>Linguistics and Nigerian Languages</p>
+                           <p> <label>Phone:</label></p>
+                           <p> <label>Office:</label> Youth President</p>
                      </div>
 
                      <div className="president-info">
                      <img src={iyanu} alt="Iyanuoluwa Owoyemi" className="iyanu general"/>
-                        <p>Name: Owoyemi, Iyanuoluwa Oluwaseun</p>
-                        <p>Department: Agricultural and Biosystems Engineering</p>
-                        <p>Phone: 08109685985</p>
-                        <p>Office: Vice President</p>
+                        <p><label>Name:</label> Owoyemi, Iyanuoluwa Oluwaseun</p>
+                        <p><label>Department:</label> Agricultural and Biosystems Engineering</p>
+                        <p><label>Phone:</label> 08109685985</p>
+                        <p><label>Office:</label> Vice President</p>
                      </div>
 
                   </div>
                   <div className="group1">
                      <div className="gensec">
                         <img src={tope} alt="Tope Akinyele" className="tope general"/>
-                        <p>Name: Akinyele, Temitope Esther</p>
-                        <p>Department: Art Education</p>
-                        <p>Phone: 08109685985</p>
-                        <p>Office: General Secretary</p>
+                        <p><label>Name:</label> Akinyele, Temitope Esther</p>
+                        <p><label>Department:</label> Art Education</p>
+                        <p><label>Phone:</label> 08109685985</p>
+                        <p><label>Office:</label> General Secretary</p>
 
                            
                      </div>
                      
                      <div className="gensec">
                            <img src={emmanuel} alt="" className="samuel general"/>
-                           <p>Name: Akinyele, Temitope Esther</p>
-                           <p>Department: Art Education</p>
-                           <p>Phone: 08109685985</p>
-                           <p>Office: General Secretary</p>
+                           <p><label>Name:</label> Akinyele, Temitope Esther</p>
+                           <p><label>Department</label>Art Education</p>
+                           <p><label>Phone:</label> 08109685985</p>
+                           <p><label>Office:</label> General Secretary</p>
                         </div>
                   </div>
                   <div className="group2">
                      <div className="academic-cord">
-                        <img src={adeola} alt="Adeola Adekeye" className="tope"/>
-                        <img src={timothy} alt="Timothy Solarin" className="samuel"/>
-                    
+                        <img src={adeola} alt="Adeola Adekeye" className="tope general"/>
+                           <p><label>Name:</label> Adekeye, Adeola Oluwatomi</p>
+                           <p><label>Department:</label> Agricultural Economic and Farm Management Practice</p>
+                           <p><label>Phone:</label> 08109685985</p>
+                           <p><label>Office:</label> Academic Coordinator 1</p>
                      </div>
-                     <div className="academic">
-                           <p>Name: Adekeye, Adeola Oluwatomi</p>
-                           <p>Department: Agricultural Economic and Farm Management Practice</p>
-                           <p>Phone: 08109685985</p>
-                           <p>Office: Academic Coordinator 1</p>
-                       
-                           <p>Name: Solarin, O. Timothy</p>
-                           <p>Department: Finance</p>
-                           <p>Phone: 08109685985</p>
-                           <p>Office: Academic Coordinator 2</p>
+                     <div className="academic-cord">
+                           
+                           <img src={timothy} alt="Timothy Solarin" className="samuel general"/>
+                           <p><label>Name:</label> Solarin, O. Timothy</p>
+                           <p><label>Department</label> Finance</p>
+                           <p><label>Phone:</label> 08109685985</p>
+                           <p><label>Office:</label> Academic Coordinator 2</p>
                      </div>
                   </div>
                   <div className="group3">
                      <div className="prayer-cord">
                         <img src={emmanuel} alt="Emmanuel Aiyenigba" className="emmanuel general" />
-                        <p>Name: Emmanuel Juwon Aiyenigba</p>
-                        <p>Department: Zoology</p>
-                        <p>Phone: 08147367859</p>
-                        <p>Office: Prayer Secretary 1</p>
+                        <p><label>Name:</label> Emmanuel Juwon Aiyenigba</p>
+                        <p><label>Department</label> Zoology</p>
+                        <p><label>Phone</label> 08147367859</p>
+                        <p><label>Office</label> Prayer Secretary 1</p>
 
                         <img src={elijah} alt="Elijah Otunla" className="elijah general"/>
-                           <p>Name: Otunla, Elijah Oluwafemi</p>
-                           <p>Department: Telecommunication Science</p>
-                           <p>Phone: 09074916632</p>
-                           <p>Office: Prayer Secretary 2</p>
+                           <p><label>Name:</label> Otunla, Elijah Oluwafemi</p>
+                           <p><label>Department:</label> Telecommunication Science</p>
+                           <p><label>Phone:</label> 09074916632</p>
+                           <p><label>Office:</label> Prayer Secretary 2</p>
                      </div>
                      <div className="group4">
                         <img src={darasimi} alt="Darasimi Onigbinde" className="darasimi general"/>
-                           <p>Name: Onigbinde, Oluwadarasimi</p>
-                           <p>Department: Marketing</p>
-                           <p>Phone: 09066724369</p>
-                           <p>Office: Public Relation Officer</p>
+                           <p><label>Name:</label> Onigbinde, Oluwadarasimi</p>
+                           <p><label>Department</label> Marketing</p>
+                           <p><label>Phone:</label> 09066724369</p>
+                           <p><label>Office:</label> Public Relation Officer</p>
 
                            <img src={lydia} alt="lydia Solarin" className="lydia general"/>
-                              <p>Name: Solarin, Lydia Adeola</p>
-                              <p>Department: Educational Management</p>
-                              <p>Phone: 08186786401</p>
-                              <p>Office: Financial Secretary</p>
+                              <p><label>Name:</label> Solarin, Lydia Adeola</p>
+                              <p><label>Department:</label> Educational Management</p>
+                              <p><label>Phone:</label> 08186786401</p>
+                              <p><label>Office:</label>Financial Secretary</p>
                      </div>
                   </div>
                   </div>
@@ -164,16 +163,18 @@ const App = () =>{
             
             </div>
             <div className="hod">
-               <h2>Meet the HODs</h2>
+               <h2>Meet the H.O.D<span className="hod-s">s</span></h2>
                <p className="description">At CAC Halleuyah Chapel, there are
                different units or department where members can volunteer to work for 
-               the Lord. Each unit is led by the "Head of Department (HOD). Meet them!"
+               the Lord. Each unit is led by the "Head of Department (HOD)". Meet them!
                </p>
-                  <img src={justina} alt="Justina Megbowon" className="justina general"/>
-                     <p>Name: Megbowon, Justina Abiola</p>
-                     <p>Department: Educational Management</p>
-                     <p>Phone: 08186786401</p>
-                     <p>Office: Financial Secretary</p>
+                  <div className="justina">
+                     <img src={justina} alt="Justina Megbowon" className="justina general"/>
+                     <p><label>Name:</label> Megbowon, Justina Abiola</p>
+                     <p><label>Department</label> Educational Management</p>
+                     <p><label>Phone:</label> 08186786401</p>
+                     <p><label>Office:</label>HOD, Technical Unit</p>
+                  </div>
       </div>
         </div>
     )

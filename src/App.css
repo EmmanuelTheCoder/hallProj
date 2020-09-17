@@ -148,18 +148,10 @@ td:last-child{
   padding-top: 1.9rem;
 } */
 
-.academic-cord{
-  display: flex;
-  justify-content: space-around;
-}
-.academic-cord img{
-  width: 10rem;
-  height: 15rem;
-}
-.group3{
-  display: flex;
-}
-.president{
+/* Use this when the screen changes. */
+
+
+/* .president{
   display: flex;
   justify-content: space-around;
   margin-bottom: 2rem;
@@ -174,4 +166,51 @@ td:last-child{
 .group1{
   display: flex;
   justify-content: space-around;
+} */
+
+ .excos{
+  text-align: center;
+}
+.excos h2{
+  text-transform: uppercase;
+  color: blue;
+  padding-bottom: 1.1rem;
+
+}
+.excos .excos-info{
+  padding: 0 10px 10px 1rem;
+  font-size: 1.1rem;
+  color: rgb(241, 103, 11);
+}
+.excos p, .hod .justina p{
+  padding: 0 10px;
+  color: blue;
+  font-size: 1.2rem;
+}
+.excos p:last-child, .hod .justina p:last-child {
+  margin-bottom: 3rem;
+}
+.excos label, .hod .justina label{
+  color: red;
+  display: block;
+  padding:  .5rem 0 0;
+}
+.excos img, .hod img{
+  width: 15rem;
+}
+.hod{
+  text-align: center;
+}
+.hod h2{
+  text-transform: uppercase;
+  color: blue;
+}
+.hod-s{
+  text-transform: lowercase;
+}
+.hod .description{
+  padding: 15px;
+  font-size: 1.1rem;
+  color:rgb(241, 103, 11);
+  padding-bottom: 2rem;
 }
